@@ -1,0 +1,25 @@
+module.exports = {
+	name: 'reverse',
+	helpTitle: 'Reverse',
+	category: 'Text Manipulation',
+	usage: 'reverse [text]',
+	description: 'Reverse text.',
+	isDMAllowed: false,
+	isDangerous: false,
+	mainServerOnly: false,
+	isHidden: false,
+	// aliases: [],
+	cooldown: 5,
+	execute: async function(client, message, args) {
+		let input = args.join(' ');
+
+		// Supress @everyone, @here and pinging roles
+		[/@everyone/gi, /@here/gi, /<@&\d{18}>/].forEach(ping => {
+			input = input.replace(ping, 'haha funny ping');
+		});
+
+		if (args.length < 1) return message.reply(';-; .oht yas ot tahW');
+
+		message.channel.sendMessage(input.split('').reverse().join(''));
+	},
+};

@@ -1,0 +1,27 @@
+{
+    "welcome": {
+        "state": false,
+        "humanizedString": "welcomer"
+    },
+    "randomStatus": {
+        "state": true,
+        "humanizedString": "random status"
+    },
+    "blackListing": {
+        "state": true,
+        "humanizedString": "blacklisting"
+    },
+    "minecraftMaintenance": {
+        "state": false,
+        "humanizedString": "Minecraft maintenance mode"
+    },
+    "autoResponders": {
+        "state": true,
+        "humanizedString": "auto responder"
+    },
+    "dadBot": {
+        "state": false,
+        "humanizedString": "dad bot"
+    },
+    "disabledCommands": []
+}

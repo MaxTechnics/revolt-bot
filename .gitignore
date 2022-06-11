@@ -1,0 +1,29 @@
+# IDE, this is where i keep my debugger config and stuff
+/.vscode/
+
+# Archived stuffs
+#/Scrapped and archived/ (no longer exists)
+
+# Use `npm i` to install them
+/node_modules/
+
+# Token and other secrets
+configRelease.json
+
+# Also token and stuff but for dev purposes
+configDebug.json
+
+# I readded my deleted stuff for later reference, but i'm not pushing them to the repo
+/Z Legacy/
+
+# Deploy data, contains blacklist, settings and databases
+/deployData/
+
+# Spotlight
+.DS_Store*
+
+# Package Lock file
+package-lock.json
+
+# Jest coverage reports
+/coverage/
